@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/tamim">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Sex</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <br>
+        <div>
+            <label for="country"> Country</label>
+            <select name="country" id="country">
+                <option>Select an option</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="message" id="message" placeholder="Enter your message here..."></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="subscribe">Subscribe to newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
